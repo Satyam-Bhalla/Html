@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<title>Satyam Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+  .navbar {
+      margin-bottom: 0;
+      background-color: teal;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: black !important;
+      font-weight: bold;
+      background-color: #fff !important;
+  }
+   .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+</style>
+<body class="w3-light-grey" id ="Satyamportfolio" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand w3-text-white w3-hover-text-black " href="Satyamportfolio.html">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="w3-text-white w3-hover-text-black" >ABOUT</a></li>
+        <li><a href="#services" class="w3-text-white w3-hover-text-black">EDUCATION</a></li>
+        <li><a href="#portfolio" class="w3-text-white w3-hover-text-black">PROJECTS</a></li>
+        <li><a href="#contact" class="w3-text-white w3-hover-text-black">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <div class="w3-row-padding">
+  
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://i.ytimg.com/vi/5YQkWQbDS9w/maxresdefault.jpg" style="width:100%;height:450px; margin: 10px; padding-right: 10px; " alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white w3-hover-text-light-blue">
+            <h2>Satyam</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Punjab, India</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>satyambhalla17@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91-98143-67681</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>HTML</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
+            </div>
+          </div>
+          <p>CSS</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Bootstrap</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:75%">
+              <div class="w3-center w3-text-white">75%</div>
+            </div>
+          </div>
+          <p>C</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:50%">
+              <div class="w3-center w3-text-white">70%</div>
+            </div>
+          </div>
+          <p>C++</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:50%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:100%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:55%"></div>
+          </div>
+          <p>Punjabi</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-teal" style="width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div id="about" class="slideanim slide">
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Developer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+        </div>
+      </div>
+      </div>
+      <div id="education" class="slideanim slide">
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Free Code Camp</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Guru Nanak Dev University</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Bachelor Degree</p>
+          <hr>
+        </div>
+          <br>
+        
+      </div>
+     </div>
+      <br>
+      <div id="project" class="slideanim">
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Free Code Camp</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>C++</b></h5>
+          <label>
+          <h6 class="w3-text-teal"><a href="https://github.com/Satyam-Bhalla/Cpp-Programs" target="_blank"><i class="fa fa-github fa-fw w3-margin-right w3-large"></i></a>I have done many projects in C and C++.</h6>
+          </label>
+          <p>Bachelor Degree</p>
+          <hr>
+        </div>
+          <br>
+      </div>
+      </div>   
+        
+      </div>
+
+    
+    </div>
+    
+  
+  </div>
+  
+  
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a href="https://www.facebook.com/satyam.bhalla.75" target="_blank"><i class="fa fa-facebook-official w3-text-black w3-hover-text-light-blue w3-large"></i></a>
+  <a href="https://www.instagram.com/_satyam_bhalla/" target="_blank"><i class="fa fa-instagram  w3-text-black w3-hover-text-light-blue w3-large"></i></a>
+  <a href="https://twitter.com/_satyam_bhalla" target="_blank"><i class="fa fa-twitter w3-text-black w3-hover-text-light-blue w3-large"></i></a>
+  
+  
+</footer>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#Satyamportfolio']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 300) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+</body>
+</html>
